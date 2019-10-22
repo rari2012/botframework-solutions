@@ -1,6 +1,8 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
+using SkillServiceLibrary.Services;
+
 namespace PointOfInterestSkill.Services
 {
     public interface IServiceManager

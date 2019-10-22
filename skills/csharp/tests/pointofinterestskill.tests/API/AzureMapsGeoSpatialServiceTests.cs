@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PointOfInterestSkill.Services;
 using PointOfInterestSkill.Tests.API.Fakes;
+using SkillServiceLibrary.Services.AzureMapsAPI;
 
 namespace PointOfInterestSkill.Tests.API
 {

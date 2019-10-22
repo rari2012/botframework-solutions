@@ -24,6 +24,8 @@ using PointOfInterestSkill.Responses.FindPointOfInterest;
 using PointOfInterestSkill.Responses.Shared;
 using PointOfInterestSkill.Services;
 using PointOfInterestSkill.Utilities;
+using SkillServiceLibrary.Models;
+using SkillServiceLibrary.Services;
 using static Microsoft.Recognizers.Text.Culture;
 
 namespace PointOfInterestSkill.Dialogs
@@ -45,6 +47,7 @@ namespace PointOfInterestSkill.Dialogs
             { "it-IT", "it-IT-ElsaNeural" },
             { "zh-CN", "zh-CN-XiaoxiaoNeural" }
         };
+
         // TODO same as the one in ConfirmPrompt
         private static readonly Dictionary<string, string> ChoiceDefaults = new Dictionary<string, string>()
         {
@@ -57,6 +60,7 @@ namespace PointOfInterestSkill.Dialogs
             { Portuguese, "Sim" },
             { Chinese, "是的" },
         };
+
         private const string FallbackPointOfInterestImageFileName = "default_pointofinterest.png";
         private IHttpContextAccessor _httpContext;
 

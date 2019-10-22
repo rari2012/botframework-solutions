@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PointOfInterestSkill.Services;
 using PointOfInterestSkill.Tests.API.Fakes;
+using SkillServiceLibrary.Services.FoursquareAPI;
 
 namespace PointOfInterestSkill.Tests.API
 {

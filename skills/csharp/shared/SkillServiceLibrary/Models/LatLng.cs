@@ -1,18 +1,16 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using System;
+using Newtonsoft.Json;
 
-namespace PointOfInterestSkill.Models
+namespace SkillServiceLibrary.Models
 {
-    public class UserInformation
+    public class LatLng
     {
-        public string Name { get; set; }
-
-        public TimeZoneInfo Timezone { get; set; }
-
+        [JsonProperty(PropertyName = "lat")]
         public double Latitude { get; set; }
 
+        [JsonProperty(PropertyName = "lon")]
         public double Longitude { get; set; }
     }
 }

@@ -1,6 +1,8 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
+using SkillServiceLibrary.Models;
+
 namespace PointOfInterestSkill.Models
 {
     public class RouteDirectionsModel : PointOfInterestModel

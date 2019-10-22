@@ -193,6 +193,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\shared\SkillServiceLibrary\SkillServiceLibrary.csproj" />
+  </ItemGroup>
   
   <ItemGroup>
     <None Update="Responses\CancelRoute\CancelRouteResponses.tt">

@@ -1,5 +1,6 @@
 ﻿using Luis;
 using PointOfInterestSkill.Services;
+using SkillServiceLibrary.Models;
 
 namespace PointOfInterestSkill.Tests.Flow.Utterances
 {
