@@ -1,4 +1,7 @@
-﻿using System.Drawing;
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
+using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
@@ -8,7 +11,7 @@ using System.Threading.Tasks;
 using Moq;
 using Moq.Protected;
 
-namespace PointOfInterestSkill.Tests.API.Fakes
+namespace SkillServiceLibrary.Tests.AzureMapsAPI.Fakes
 {
     public class MockHttpClientHandlerGen
     {

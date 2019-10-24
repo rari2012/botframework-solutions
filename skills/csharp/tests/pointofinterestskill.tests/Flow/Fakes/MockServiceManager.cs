@@ -1,9 +1,13 @@
-﻿using System;
+﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
+using System;
 using System.Net.Http;
 using PointOfInterestSkill.Services;
 using SkillServiceLibrary.Services;
 using SkillServiceLibrary.Services.AzureMapsAPI;
 using SkillServiceLibrary.Services.FoursquareAPI;
+using SkillServiceLibrary.Tests.AzureMapsAPI.Fakes;
 
 namespace PointOfInterestSkill.Tests.API.Fakes
 {

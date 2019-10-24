@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
+using System.Collections.Generic;
 using System.Threading;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Bot.Builder;
@@ -21,6 +24,7 @@ using PointOfInterestSkill.Responses.Shared;
 using PointOfInterestSkill.Services;
 using PointOfInterestSkill.Tests.API.Fakes;
 using PointOfInterestSkill.Tests.Flow.Utterances;
+using SkillServiceLibrary.Tests.AzureMapsAPI.Fakes;
 
 namespace PointOfInterestSkill.Tests.Flow
 {

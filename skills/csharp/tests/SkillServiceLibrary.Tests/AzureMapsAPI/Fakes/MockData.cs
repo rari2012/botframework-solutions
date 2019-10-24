@@ -1,4 +1,7 @@
-﻿namespace PointOfInterestSkill.Tests.API.Fakes
+﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
+namespace SkillServiceLibrary.Tests.AzureMapsAPI.Fakes
 {
     public static class MockData
     {

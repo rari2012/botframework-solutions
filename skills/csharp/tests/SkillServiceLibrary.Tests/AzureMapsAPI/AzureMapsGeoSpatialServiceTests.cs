@@ -1,11 +1,13 @@
-﻿using System.Net.Http;
+﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT license.
+
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PointOfInterestSkill.Services;
-using PointOfInterestSkill.Tests.API.Fakes;
 using SkillServiceLibrary.Services.AzureMapsAPI;
+using SkillServiceLibrary.Tests.AzureMapsAPI.Fakes;
 
-namespace PointOfInterestSkill.Tests.API
+namespace SkillServiceLibrary.Tests.AzureMapsAPI
 {
     [TestClass]
     public class AzureMapsGeoSpatialServiceTests
