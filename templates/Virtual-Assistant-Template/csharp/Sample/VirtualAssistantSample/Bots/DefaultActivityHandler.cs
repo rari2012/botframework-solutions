@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace VirtualAssistantSample.Bots
 {
-    public class DefaultActivityHandler<T> : ActivityHandler
+    public class DefaultActivityHandler<T> : TeamsActivityHandler
         where T : Dialog
     {
         private readonly Dialog _dialog;
