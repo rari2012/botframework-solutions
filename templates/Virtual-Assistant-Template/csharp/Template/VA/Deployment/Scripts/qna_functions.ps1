@@ -54,6 +54,11 @@ function DeployKB ($name, $lu_file, $qnaSubscriptionKey, $log)
 		Return $null
 	}
 	else {
+		#Workaround - remove deprecreated message vom JSON
+		$filteredText = ($qnaKb | Out-String)
+		$qnaKb = $filteredText.Substring($filteredText.IndexOf("{"))
+                #Fix end
+		
 		$qnaKb = $qnaKb | ConvertFrom-Json
 
 	    # Publish QnA Maker knowledgebase
